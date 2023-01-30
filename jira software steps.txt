@@ -1,0 +1,311 @@
+
+vinojirasoftware.atlassian.net
+
+
+https://vinojirasoftware.atlassian.net/projects/DEMO?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kaanha.jira.tcms__aio-tcms-project-overview
+
+
+Link for exploratory testing:
+
+User story ->Requirement
+Epic --> Collection of user story
+
+First create an account in Jira by providing ur mail id and create a password.
+
+How to add plug-in in Jira??
+
+Jira Login -->Apps-->Exlpore more apps
+
+It will list out all the plug-ins actually.
+
+In that select,AIO (All In One Test Management tool for Jira)  -->It will be free for 10 members
+
+Test Management In jira -> Start free trial 
+
+How to use in Jira?
+
+1.First u have to create a project in jira
+
+2.Create a Issue that issue type will be like Story. After creating the user story,U can add summary for the story.
+
+Once you installed the AIO plugin,Click AIO tests which will be present in left side.
+
+For the 1st time, u have to enable that by clicking the Enable button.
+==========================================
+JIRA :
+  
+  It is a project management tool
+  Can create a testcase
+  Can create a suite set and executed
+  can log the defect
+  can create bulk of  report
+
+
+AIO plugin
+
+Apps-->Explore apps-->AIO -->click free trail
+
+
+
+Create a project in JIRA
+
+Projects -->Create Project
+
+click Scrum
+
+click use template button
+
+Click select company managed -->Give name like demoProject
+
+click create
+
+
+=====================
+
+Enable the AIO test-->click the AIO test in the left corner
+
+click enable button
+
+=====================
+
+Create a testcase
+
+click cases
+
+Click create case button
+
+Give the title,Description,Preconditions
+
+Status -->Published
+
+Click addsteps button --->Classic and BDD option is there -->For manual classic is enough
+
+Click Add Steps
+
+
+Write the testcase1 and write the expeacted result 
+
+For next testcase click + symobol
+
+
+write the testcases and click SaveSteps button
+
+We can see the all the testcases in the dashboard
+
+===================================================
+
+Test Suite
+
+  Collection of testcases
+
+100  testcases --> need 50 testcases 
+
+50 -->testsuite convert -->To execute
+
+Test Bed
+  Test environment
+
+
+==============================
+
+Create a set -->It is like a group of need testcases
+
+For example total is 100 -->need 50 
+
+We can group 50 and execute -->We can make as a suite
+
+
+Click Sets
+
+click Create Set
+
+Give title,objective-->what are testcase are need to execute link firstname ,lastname
+
+
+Click selectcases button -->we can see all the testcase 
+click the testcase what we want -->Published only see,suppose it is in draft we can't see 
+
+
+Click saveandclose
+
+============================
+
+
+Execute
+
+Go to cycles 
+
+don't touch adhoc
+
+click Create Cycle button
+
+Give Title as-->Sprint1-To test the salutation drop down ,first name and last name field
+
+Give Obejective -->Same as Title content
+
+Click selectCases
+
+selct the testcases-->check boxes
+
+Click save and close
+
+=======
+
+After executing the testcase only we can update the actual result
+
+In the CYcles
+click the project
+
+
+Click(arrow mark) the testcase1 and execute the application  by fllowing the steps
+After executing click the add actual result and update the commands and click save button 
+Make the status as passed  or failed--->(-) click this symbol
+
+
+================================
+
+How to log in to Defect 
+
+Defect --->Failed testcase is called as defect
+
+In the Cycles -->Testcase1
+
+click the testcase1
+We can see the inspect symbol -->click that symbol(Defects)
+
+Click create issue-->we can see all the details about the bug
+
+Click the High option in priority dropdown
+
+Click create
+
+We can see the defects
+
+=========================================
+Generate the Report
+
+Summary report
+
+
+Click Reports
+
+Click Traceabilty
+
+Click Traceabilty in category
+
+Select the needed project in ProjectAll dropdown
+
+Select the needed cycle in Retrieve Runs 
+
+Select the failed testcases in Requirements box
+
+Click generate  
+
+=================================
+
+Excel and Jira -->Combine
+
+Excel -->100 cases
+
+Go the dashboard
+
+Click Cases
+
+Click importcases
+
+click sample XLSX-->Here some template is there
+We have to change the title as template save in the location
+Click Browse to attach file
+
+and click upload
+
+
+
+
+
+===============================================
+===============================================
+
+Agile
+
+In the Navigation -->click create
+
+Select story in Issue type dropdown
+
+Write the stories in summary
+like 
+To test the username
+To test the password
+To test the login button
+
+Click create
+=========================================
+
+
+Then create a Epic -->Login functionality
+Collection of user stories is called as Epic
+
+
+
+
+
+=============================================================================
+
+
+
+Bug Report  in Excel
+
+Bug Id -->def001
+
+Bug name-->Login Functionlity
+
+Bug Description ->Login Functionlity is not working properly
+
+Steps to reproduce -->Paste the  Test steps 
+
+
+
+Severity
+
+Periority 
+
+Status of the bug -->New,Open,Assigned,Fixed,closed -->Once assigned dev is fixed the bug the tester is maked status as verified and the bug is not there make it as closed
+
+
+
+Identified on--->Date
+
+Identified by-->Tester name
+
+Assigned to-->Developer name
+
+Fixed on -->Date 
+
+
+comment -->Take screenshot of the defect
+
+
+=======================================
+Bug Leakage
+
+ The bug which is missed by the testing team  but it is found by the end user is called as Bug Leakage
+
+Bug Release
+
+  Release the product with known defect is called as Bug Release(low periority bug)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
